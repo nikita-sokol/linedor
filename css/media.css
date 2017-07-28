@@ -1,113 +1,368 @@
+.reset {
+  /* HTML5 display-role reset for older browsers */
+}
+.reset html,
+.reset body,
+.reset div,
+.reset span,
+.reset applet,
+.reset object,
+.reset iframe,
+.reset h1,
+.reset h2,
+.reset h3,
+.reset h4,
+.reset h5,
+.reset h6,
+.reset p,
+.reset blockquote,
+.reset pre,
+.reset a,
+.reset abbr,
+.reset acronym,
+.reset address,
+.reset big,
+.reset cite,
+.reset code,
+.reset del,
+.reset dfn,
+.reset em,
+.reset img,
+.reset ins,
+.reset kbd,
+.reset q,
+.reset s,
+.reset samp,
+.reset small,
+.reset strike,
+.reset strong,
+.reset sub,
+.reset sup,
+.reset tt,
+.reset var,
+.reset b,
+.reset u,
+.reset i,
+.reset center,
+.reset dl,
+.reset dt,
+.reset dd,
+.reset ol,
+.reset ul,
+.reset li,
+.reset fieldset,
+.reset form,
+.reset label,
+.reset legend,
+.reset table,
+.reset caption,
+.reset tbody,
+.reset tfoot,
+.reset thead,
+.reset tr,
+.reset th,
+.reset td,
+.reset article,
+.reset aside,
+.reset canvas,
+.reset details,
+.reset embed,
+.reset figure,
+.reset figcaption,
+.reset footer,
+.reset header,
+.reset hgroup,
+.reset menu,
+.reset nav,
+.reset output,
+.reset ruby,
+.reset section,
+.reset summary,
+.reset time,
+.reset mark,
+.reset audio,
+.reset video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+}
+.reset * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.reset :after,
+.reset :before {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.reset article,
+.reset aside,
+.reset details,
+.reset figcaption,
+.reset figure,
+.reset footer,
+.reset header,
+.reset hgroup,
+.reset menu,
+.reset nav,
+.reset section {
+  display: block;
+}
+.reset body {
+  line-height: 1;
+}
+.reset ol,
+.reset ul,
+.reset li {
+  list-style: none;
+}
+.reset blockquote,
+.reset q {
+  quotes: none;
+}
+.reset blockquote:before,
+.reset blockquote:after,
+.reset q:before,
+.reset q:after {
+  content: '';
+  content: none;
+}
+.reset table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+.reset a {
+  color: #000;
+  text-decoration: none;
+  display: inline-block;
+}
+.reset a:focus,
+.reset a:hover {
+  text-decoration: none;
+  outline: none;
+}
 @media only screen and (max-width: 1422px) {
-  .container2 {
+  .reset .container2 {
     padding-right: 10px;
     padding-left: 10px;
   }
-  .product_main-top,
-  .product_color {
+  .reset .product_main-top,
+  .reset .product_color {
     border-right: none;
     border-left: none;
   }
-  .models_list > li {
+  .reset .models_list > li {
     width: 33%;
   }
-  .models_list p {
+  .reset .models_list p {
     display: inline-block;
     margin-left: -76px;
   }
 }
+@media only screen and (max-width: 1199px) {
+  .reset .door_menu_dimen_block {
+    width: 100%;
+    margin-top: 20px;
+  }
+  .reset .door_menu_dimen_block:first-child {
+    margin-top: 5px;
+    margin-right: 0px;
+  }
+}
 @media only screen and (max-width: 991px) {
-  .product_display {
+  .reset .product_display {
     height: 620px;
   }
-  .other-models {
+  .reset .other-models {
     padding: 30px 0 45px;
     text-transform: uppercase;
   }
-  .other-models h3 {
+  .reset .other-models h3 {
     font-size: 24px;
+    margin-bottom: 60px;
   }
-  .models_list > li {
+  .reset .models_list > li {
     width: 33%;
   }
-  .models_list p {
+  .reset .models_list p {
     margin-left: 0px;
   }
-  .model_name {
+  .reset .model_name {
     font-size: 18px;
+  }
+  .reset .table-cell_door {
+    padding-top: 15px;
+  }
+  .reset .door_img {
+    height: 450px;
   }
 }
 @media only screen and (max-width: 767px) {
-  .btn_catalog-back {
+  .reset .btn_catalog-back {
     float: right;
     width: 46px;
   }
-  .catalog-back-text {
+  .reset .catalog-back-text {
     display: none;
   }
-  .catalog-back_xs {
+  .reset .catalog-back_xs {
     display: inline-block;
   }
-  .prod_upload {
+  .reset .prod_upload {
     width: auto;
   }
-  .door-interior {
+  .reset .door-interior {
     padding-left: 10px;
   }
-  .product_color > li {
+  .reset .product_color > li {
     width: 50%;
     padding: 0 10px;
   }
-  .product_display {
+  .reset .product_display {
     height: 440px;
   }
-  .other-models {
-    padding: 20px 0;
+  .reset .table-cell_door,
+  .reset .table-cell_menu {
+    width: 100%;
+    float: left;
   }
-  .other-models h3 {
-    font-size: 18px;
+  .reset .table-cell_door {
+    margin-bottom: 25px;
+  }
+  .reset .table-cell_menu {
+    padding: 0 10px;
   }
 }
 @media only screen and (max-width: 480px) {
-  .product_header {
+  .reset .product_header {
     padding: 10px 0;
   }
-  .product_breadcrumbs {
+  .reset .product_breadcrumbs {
     margin-top: 18px;
     float: left;
   }
-  .product_breadcrumbs a {
+  .reset .product_breadcrumbs a {
     font-size: 10px;
     margin-left: 10px;
   }
-  .product_breadcrumbs a::before {
+  .reset .product_breadcrumbs a::before {
     left: -10px;
     bottom: 0px;
     font-size: 10px;
   }
-  .product_name {
+  .reset .product_name {
     font-size: 18px;
   }
-  .product_main-top {
-    height: 40px;
-  }
-  .door-interior p,
-  .prod_upload-your,
-  .prod_remove {
-    font-size: 10px;
-  }
-  .prod_print,
-  .prod_down,
-  .prod_exit {
+  .reset .prod_print,
+  .reset .prod_down,
+  .reset .prod_exit {
     width: 1px;
     padding: 0 8px;
   }
-  .prod_print a,
-  .prod_down a,
-  .prod_exit a {
+  .reset .prod_print a,
+  .reset .prod_down a,
+  .reset .prod_exit a {
     width: 15px;
   }
-  .models_list > li {
+  .reset .other-models {
+    padding: 20px 0;
+  }
+  .reset .other-models h3 {
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+  .reset .models_list > li {
     width: 50%;
+  }
+  .reset .btn_door-interior {
+    width: 130px;
+  }
+  .reset .btn_door-interior a {
+    line-height: 36px;
+    color: #a09fa0;
+    font-size: 10px;
+    font-weight: 300;
+    -webkit-border-radius: 0 0 0 17px;
+            border-radius: 0 0 0 17px;
+    border: 1px solid #d6d5d6;
+    border-top: none;
+    border-right: none;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .reset .color_title {
+    margin-bottom: 8px;
+    font-size: 14px;
+  }
+  .reset .product_color {
+    padding: 20px 0 12px;
+  }
+  .reset .product_main-top {
+    height: 40px;
+  }
+  .reset .door-interior p,
+  .reset .prod_upload-your,
+  .reset .prod_remove {
+    font-size: 10px;
+  }
+  .reset .door-select_wrap {
+    padding: 64px 0 20px;
+  }
+  .reset .door_img {
+    height: 280px;
+  }
+  .reset .table-cell_door {
+    padding-top: 0;
+  }
+  .reset .door_menu_item_title {
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+  .reset .door_menu_dimen_title {
+    font-size: 12px;
+    margin-bottom: 7px;
+  }
+  .reset .door_form_dimensions {
+    font-size: 12px;
+  }
+  .reset .dimen_input_radio + .dimen_input_radio {
+    margin-top: 3px;
+  }
+  .reset .door_menu_dimen_block {
+    margin-top: 10px;
+  }
+  .reset .door_menu_dimen_block:first-child {
+    margin-top: 2px;
+  }
+  .reset .door_menu_item {
+    padding: 15px 0 10px;
+  }
+  .reset .door_menu_item_subtitle {
+    font-size: 12px;
+    margin-bottom: 5px;
+  }
+  .reset .door_choice_title {
+    color: #404041;
+    font-size: 12px;
+  }
+  .reset .door_choice_name {
+    color: #9e9e9e;
+    font-size: 12px;
+  }
+  .reset .door_choice_block-text + .door_choice_block-text {
+    margin-top: 3px;
+  }
+  .reset a.door_choice_cert {
+    margin-top: 7px;
+    padding-top: 7px;
+    padding-left: 22px;
+    font-size: 12px;
+  }
+  .reset a.door_choice_cert::before {
+    left: 0px;
+    bottom: 0px;
+    width: 17px;
+    height: 17px;
   }
 }
