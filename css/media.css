@@ -170,7 +170,15 @@
     margin-right: 0px;
   }
 }
+@media only screen and (max-width: 1100px) {
+  .reset .door-select_wrap {
+    padding: 64px 0 60px;
+  }
+}
 @media only screen and (max-width: 991px) {
+  .reset .door-select_wrap {
+    padding: 64px 0 40px;
+  }
   .reset .product_display {
     height: 620px;
   }
@@ -234,7 +242,7 @@
     padding: 0 10px;
   }
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 500px) {
   .reset .product_header {
     padding: 10px 0;
   }
